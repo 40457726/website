@@ -22,9 +22,11 @@
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 5.5rem;
   color: #ffff;
   margin-bottom: 5rem;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 h2 {
