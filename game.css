@@ -21,3 +21,70 @@ body{
     position: relative;
     height: 100vh;
 }
+
+.choice-container{
+    display: block;
+    margin-bottom: 2rem;
+    width: 95%;
+    border-radius: 13px;
+    background: radial-gradient(circle, rgba(255,227,65,1) 1%, rgba(255,36,7,1) 23%, rgba(255,124,0,1) 92%);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+cursor: pointer;
+box-shadow: 0 0.5rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+transition: transform 150ms;
+transform: scale(1.001);
+}
+
+.choice-prefix {
+    padding: 3px;
+    color: black;
+}
+
+.choice-text {
+    padding: 1rem;
+    width: 90%;
+    color: black;
+}
+
+.correct {
+    background: linear-gradient(90deg, rgba(255,227,65,1) 50%, rgba(255,124,0,1) 75%);
+}
+
+.incorrect {
+    background: linear-gradient(90deg, rgba(255,65,65,1) 50%, rgba(255,128,0,1) 75%);
+}
+
+/* heads up display */
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgba(255,65,65,1);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
