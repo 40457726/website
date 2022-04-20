@@ -80,7 +80,7 @@ transform: scale(1.001);
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgba(241, 245, 25, 0.973);
+    border: 0.2rem solid rgba(241, 81, 41, 0.973);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
