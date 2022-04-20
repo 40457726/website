@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Who is Frodos loyal friend who journeyed with him from Middle Earth to Mount Doom?',
+        question:'Who is Frodos loyal friend who journeyed with him from Middle Earth to Mount Doom?',
         choice1:'Gollum/Sméagol',
         choice2:'Sam',
         choice3:'Aragorn',
@@ -20,72 +20,80 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'What is the name of the Elven character with the blonde hair and blue eyes who was lethal with a bow and charming with his looks?',
+        question:'What is the name of the Elven character with the blonde hair and blue eyes who was lethal with a bow and charming with his looks?',
         choice1:'Legolas',
         choice2:'Pippin',
         choice3:'Frodo',
         choice4:'Arwin',
         answer: 1,
-    },    {
-        question: 'The Lord of the Rings films are based on a novel written by which author?',
+    },    
+    {
+        question:'The Lord of the Rings films are based on a novel written by which author?',
         choice1:'New Line Cinema',
         choice2:'Christopher Tolkien',
         choice3:'J.R.R. Tolkien',
         choice4:'George R.R. Martin',
         answer: 3,
-    },    {
-        question: 'What is the name of the mountain where the Master Ring was made?',
+    },    
+    {
+        question:'What is the name of the mountain where the Master Ring was made?',
         choice1:'Ural Mountain',
         choice2:'Mount Doom',
         choice3:'Mountain Of Pain',
         choice4:'Vulcano Mountain',
         answer: 2,
-    },    {
-        question: 'What is the title of the second movie in the trilogy?',
+    },    
+    {
+        question:'What is the title of the second movie in the trilogy?',
         choice1:'Friends Forever',
         choice2:'The Second Adventure',
         choice3:'Two Towers: The Battle',
         choice4:'The Lord of the Rings: The Two Towers',
         answer: 4,
-    },    {
-        question: 'Who striked The One Ring with his axe, in an attempt to destroy it?',
+    },    
+    {
+        question:'Who striked The One Ring with his axe, in an attempt to destroy it?',
         choice1:'Gimli',
         choice2:'Saruman',
         choice3:'The Axe Warrior',
         choice4:'Balrog',
         answer: 1,
-    },    {
-        question: 'Who used to own the Ring of Power until Bilbo Baggins picked it up in the cave?',
+    },    
+    {
+        question:'Who used to own the Ring of Power until Bilbo Baggins picked it up in the cave?',
         choice1:'Gollum/Sméagol',
         choice2:'Frodo',
         choice3:'The Orc',
         choice4:'Shelob',
         answer: 1,
-    },    {
-        question: 'What frightened the Orcs in the Mines of Moria?',
+    },    
+    {
+        question:'What frightened the Orcs in the Mines of Moria?',
         choice1:'Rogue Orcs',
         choice2:'Dwarves',
         choice3:'Elves',
         choice4:'Balrog',
         answer: 4,
-    },    {
-        question: 'Name the spider, the fictional demon that Frodo fought bravely to recover the One Ring?',
+    },    
+    {
+        question:'Name the spider, the fictional demon that Frodo fought bravely to recover the One Ring?',
         choice1:'Uruk-hai',
         choice2:'Shelob',
         choice3:'Gandalf',
         choice4:'Elrond',
         answer: 2,
-    },    {
-        question: ' In The Lord Of The Rings: The Return Of The King, which army does Aragorn summon using the Sword of Elendil?',
+    },    
+    {
+        question:'In The Lord Of The Rings: The Return Of The King, which army does Aragorn summon using the Sword of Elendil?',
         choice1:'Elves',
         choice2:'Army of Orcs',
         choice3:'The Army of the Dead',
         choice4:'Monsters',
         answer: 3,
-    },
+    }
 ]
 
-const SCORE_POINTS = 10
+const SCORE_POINTS = 100
 const MAX_QUESTIONS = 10
 
 startGame = () => {
